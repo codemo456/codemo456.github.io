@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width: 100%;
+	height: 1500px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.header {
+	height: 120px;
+	width: 100%;
+	background: url(assets/blue-1761175_960_720.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	display: inline-block;
+}
+.name{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #FFFFFF;
+	text-align: center;
+}
+#name{
+	padding: 0px;
+	text-transform:lowercase;
+	font-size: 11.5px;
+	margin: 0px;
+	float: left;
+	margin-top: 100px;
+	margin-left: -75px;
+}
+
+img{
+    float: left;
+	padding: 0;
+}
+.nav-bar{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	margin-left: 100px;
+	margin-right: 150px;
+	margin-bottom: 0;
+}
+li {
+	display: inline;
+	width: 100%;
+	list-style: none;
+	text-decoration: none;
+	padding: 1px 40px 1px 40px;
+	margin: 0;
+	color: #000000;
+}
+li:hover{
+	color:#FFFFFF;
+	background-color:#289EFF;
+}
+ul{
+	display: inline;
+	list-style: none;
+	width: 100%;
+	height: 50px;
+	padding: 75px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+.memyselfI{
+	color: #FFFFFF;
+	font-size: 75px;
+	text-align: center;
+	margin: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+table {
+    border-collapse: collapse;
+	width: 700px;
+	margin-left: 325px;
+	margin-right: 500px;
+	margin-top: 25px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+thead, th{
+	color: white;
+	background: #46ABFF;
+}
+
+td, tr{
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.t_para{
+	text-align: center;
+	color: #000000;
+	margin-left: 400px;
+	margin-right: 500px;
+}
+.t_para>p{
+	width: 500px;
+}
+.home_img>img{
+	float: right;
+}
+
+.social_icons{
+	display: inline;
+}
+.social_icons>img, a{
+	float: left;
+	margin-left: 50px;
+}
+
+h4{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.new>ul{
+	list-style: circle;
+	display: block;
+}
+
+.new>li{
+list-style: circle;	
+}
